@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #000000 0%, #0047AB 100%);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -45,23 +45,26 @@ h1 {
 
 #dateInput:focus {
     outline: none;
-    border-color: #667eea;
+    border-color: #0047AB;
 }
 
 #submitBtn {
-    padding: 12px 30px;
-    background: #667eea;
+    padding: 12px 20px;
+    background: #0047AB;
     color: white;
     border: none;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     cursor: pointer;
     transition: background 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #submitBtn:hover {
-    background: #764ba2;
+    background: #003580;
 }
 
 #submitBtn:active {
